@@ -1,9 +1,11 @@
 header{
-    background: url(/Assets/images/img-640x512-hero-static-mb-2x.png);
-    background-repeat: no-repeat;
+    background: url(/Assets/images/img-2732x1532-hero-static-dt-2x.png) no-repeat;
+    //background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height:766px;
+    // height:766px;
+    position: relative;
+    z-index: -999;
     img.backgrd-headr{
         width: 100%;
         height:155px;
@@ -11,6 +13,10 @@ header{
     .head{
        .logo{
         margin: 18px 0;
+        img.Eye-Backgrd{
+           width: 169px;
+           height:59px;
+        }
        }   
             .main-nav{
                 margin: 18px 0;
@@ -38,10 +44,11 @@ header{
         
     }
     .headBanner{
-        float: right;
-        margin:80px 0;
-        position: relative;
-        top:220px;
+        margin: 140px 0;
+        // position: relative;
+        // top: 220px;
+     float: right; 
+        // left: 104px;
         .Bnr-Evop{
             font-size: 57px;
             font-weight: bold;
@@ -62,5 +69,19 @@ header{
             text-transform: uppercase;
             letter-spacing: 0.975px;
         }
+        .btn-headbnr{
+            display: flex;
+    justify-content: flex-end;
+            .btn.Stay-inform{
+                color: $white-color;
+                font-size: 9.5px;
+                font-family: $Barlow-condensed;
+                font-weight: bold;
+                border:4px solid $orange-color;
+                background-color: black;
+                border-radius: 0px;
+            }
+        }
     }
+    
 }

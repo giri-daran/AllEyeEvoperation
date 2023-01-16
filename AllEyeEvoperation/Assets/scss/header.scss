@@ -83,5 +83,28 @@ header{
             }
         }
     }
+.scol-cnt{
+    display: flex;
+    justify-content: center;
+    // width: 70px;
+    //     height: 70px;
+    .scroll{
+        color: $white-color;
+        font-family: $source-sans-pro;
+        font-size: 7px;
+        text-transform: uppercase;
+        padding: 13px;
+        
+        border: 2px solid $white-color;
+        border-radius: 50%;
+        
+    }
+    .scroll::after{
+        content: " ";
+        background: url(/Assets/images/icon-13x11-arrow-down.png) no-repeat;
+        background-color: white;
+
+    }
+}   
     
 }

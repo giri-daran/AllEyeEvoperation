@@ -100,3 +100,93 @@ header .scol-cnt .scroll::after {
   background: url(/Assets/images/icon-13x11-arrow-down.png) no-repeat;
   background-color: white;
 }
+
+.contentone {
+  background-color: #000000;
+  padding: 17px 0;
+}
+.contentone .cntr-rect {
+  background-color: rgba(0, 0, 0, 0.8509803922);
+  border: 1px solid #FFFFFF;
+  max-width: 895px;
+  margin: 15px auto;
+  padding: 35px;
+}
+.contentone .cntr-rect .lft-cnt h3 {
+  color: #FFFFFF;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  text-align: left;
+  line-height: 36px;
+}
+.contentone .cntr-rect .lft-cnt h3 sup {
+  font-size: 12px;
+  top: -0.9em;
+}
+.contentone .cntr-rect .lft-cnt p {
+  font-size: 18px;
+  color: #FFFFFF;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: left;
+  line-height: 24px;
+}
+.contentone .cntr-rect .lft-cnt p sup {
+  font-size: 8px;
+  top: -0.9em;
+}
+.contentone .cntr-rect .lft-cnt p small {
+  color: #FFFFFF;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+footer {
+  padding: 37px 0;
+  background-color: #1C1C1C;
+}
+footer .foot-top p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  text-align: left;
+  color: #FFFFFF;
+  letter-spacing: -0.28px;
+  line-height: 18px;
+  width: 100%;
+}
+footer .foot-botm {
+  padding: 17px 0;
+}
+footer .foot-botm .ft-logo img.ftr-logo {
+  margin-bottom: 1rem;
+}
+footer .foot-botm .ft-logo p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0px;
+  line-height: 24px;
+}
+footer .foot-botm .ft-lnks ul.rght-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+footer .foot-botm .ft-lnks ul.rght-links li {
+  margin-left: 10px;
+}
+footer .foot-botm .ft-lnks ul.rght-links li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  text-align: left;
+  line-height: 18px;
+}

@@ -1,17 +1,17 @@
 .contentone{
     background-color: $black-000000;
-    padding: 17px 0;
+    padding: 50px 0 17px;
     .cntr-rect{
         background-color: rgba(0, 0, 0, 0.8509803922);
         border: 1px solid #FFFFFF;
-        max-width: 895px;
+        max-width: 865px;
         margin: 15px auto;
         padding: 35px;
         .lft-cnt{
             h3{
                 color: $white-FFFFFF;
                 font-family: $source-sans-pro;
-                font-weight: 600;
+                font-weight: normal;
                 font-size: 28px;
                 text-align: left;
                 line-height: 36px;
@@ -37,7 +37,158 @@
                     font-weight: normal;
                     line-height: 20px;
                 }
-            }    
+            }  
+            a.examine-cause-btn{
+                border: 4px solid $orange-E35205;
+                padding: 3px 10px;
+                text-decoration: none;
+                color: $white-FFFFFF;
+                font-family: $Barlow-condensed;
+                font-size: 19px;
+                font-weight: lighter;
+                letter-spacing: 0.57px;
+                line-height: 29px;
+                text-align: center;
+                text-transform: uppercase;
+
+            }  
+            a.examine-cause-btn:hover{
+                background-color: $orange-E35205;
+                transition-timing-function: ease-out;
+                transition-duration: 0.3s;
+            }  
+        }
+        .rght-cnt{
+            display: flex;
+            justify-content: center;
+            img.percent-of-patients{
+                width: 100%;
+                height: 186px;
+            }
+        }
+    }
+}
+
+.contenttwo{
+    background-color: $black-000000;
+    padding: 17px 0;
+    .cntr-rect{
+        background-color: rgba(0, 0, 0, 0.8509803922);
+        border: 1px solid #FFFFFF;
+        max-width: 865px;
+        margin: 15px auto;
+        padding: 35px;
+        .lft-cnt{
+            display: flex;
+            justify-content: center;
+            img.evap-in-ded{
+                width: 100%;
+                height: 160px;
+            }
+        }
+        .rght-cnt{
+            h3{
+                color: $white-FFFFFF;
+                font-family: $source-sans-pro;
+                font-weight: normal;
+                font-size: 28px;
+                text-align: left;
+                line-height: 36px;
+                sup{
+                    font-size: 11px;
+                    top: -0.7em;
+                }
+            }
+            p{
+                font-size: 18px;
+                color: $white-FFFFFF;
+                font-family: $source-sans-pro;
+                text-align: left;
+                line-height: 26px;
+                font-weight: normal;
+                sup{
+                    font-size: 10px;
+                    top: -0.9em
+                }
+            }
+            a.explre-imapct-btn{
+                border: 4px solid $orange-E35205;
+                padding: 3px 10px;
+                text-decoration: none;
+                color: $white-FFFFFF;
+                font-family: $Barlow-condensed;
+                font-size: 19px;
+                font-weight: lighter;
+                letter-spacing: 0.57px;
+                line-height: 29px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            a.explre-imapct-btn:hover{
+                background-color: $orange-E35205;
+                transition-timing-function: ease-out;
+                transition-duration: 0.3s;
+            }  
+        }
+    }
+}
+
+.contentThee{
+    background-color: $black-000000;
+    padding: 17px 0 50px;
+    .cntr-rect{
+        background-color: rgba(0, 0, 0, 0.8509803922);
+        border: 1px solid #FFFFFF;
+        max-width: 865px;
+        margin: 15px auto;
+        padding: 40px;
+        .lft-cnt{
+            h3{
+                color: $white-FFFFFF;
+                font-family: $source-sans-pro;
+                font-weight: normal;
+                font-size: 28px;
+                text-align: left;
+                line-height: 36px;
+                sup{
+                    font-size: 12px;
+                    top: -0.9em
+                }
+            }
+            p{
+                font-size: 18px;
+                color: $white-FFFFFF;
+                font-family: $source-sans-pro;
+                text-align: left;
+                line-height: 24px;
+            }
+            a.rethink-Btn{
+                border: 4px solid $orange-E35205;
+                padding: 3px 10px;
+                text-decoration: none;
+                color: $white-FFFFFF;
+                font-family: $Barlow-condensed;
+                font-size: 19px;
+                font-weight: lighter;
+                letter-spacing: 0.57px;
+                line-height: 29px;
+                text-align: center;
+                text-transform: uppercase;
+
+            }  
+            a.rethink-Btn:hover{
+                background-color: $orange-E35205;
+                transition-timing-function: ease-out;
+                transition-duration: 0.3s;
+            }  
+        }
+        .rght-cnt{
+            display: flex;
+            justify-content: center;
+            img.without-addressing-evap{
+                width: 100%;
+                height: 150px;
+            }
         }
     }
 }

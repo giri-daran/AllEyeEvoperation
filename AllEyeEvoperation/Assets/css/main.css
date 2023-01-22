@@ -103,19 +103,19 @@ header .scol-cnt .scroll::after {
 
 .contentone {
   background-color: #000000;
-  padding: 17px 0;
+  padding: 50px 0 17px;
 }
 .contentone .cntr-rect {
   background-color: rgba(0, 0, 0, 0.8509803922);
   border: 1px solid #FFFFFF;
-  max-width: 895px;
+  max-width: 865px;
   margin: 15px auto;
   padding: 35px;
 }
 .contentone .cntr-rect .lft-cnt h3 {
   color: #FFFFFF;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 600;
+  font-weight: normal;
   font-size: 28px;
   text-align: left;
   line-height: 36px;
@@ -141,6 +141,169 @@ header .scol-cnt .scroll::after {
   font-size: 14px;
   font-weight: normal;
   line-height: 20px;
+}
+.contentone .cntr-rect .lft-cnt a.examine-cause-btn {
+  border: 4px solid #E35205;
+  padding: 3px 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 19px;
+  font-weight: lighter;
+  letter-spacing: 0.57px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.contentone .cntr-rect .lft-cnt a.examine-cause-btn:hover {
+  background-color: #E35205;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.contentone .cntr-rect .rght-cnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.contentone .cntr-rect .rght-cnt img.percent-of-patients {
+  width: 100%;
+  height: 186px;
+}
+
+.contenttwo {
+  background-color: #000000;
+  padding: 17px 0;
+}
+.contenttwo .cntr-rect {
+  background-color: rgba(0, 0, 0, 0.8509803922);
+  border: 1px solid #FFFFFF;
+  max-width: 865px;
+  margin: 15px auto;
+  padding: 35px;
+}
+.contenttwo .cntr-rect .lft-cnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.contenttwo .cntr-rect .lft-cnt img.evap-in-ded {
+  width: 100%;
+  height: 160px;
+}
+.contenttwo .cntr-rect .rght-cnt h3 {
+  color: #FFFFFF;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+  font-size: 28px;
+  text-align: left;
+  line-height: 36px;
+}
+.contenttwo .cntr-rect .rght-cnt h3 sup {
+  font-size: 11px;
+  top: -0.7em;
+}
+.contenttwo .cntr-rect .rght-cnt p {
+  font-size: 18px;
+  color: #FFFFFF;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: left;
+  line-height: 26px;
+  font-weight: normal;
+}
+.contenttwo .cntr-rect .rght-cnt p sup {
+  font-size: 10px;
+  top: -0.9em;
+}
+.contenttwo .cntr-rect .rght-cnt a.explre-imapct-btn {
+  border: 4px solid #E35205;
+  padding: 3px 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 19px;
+  font-weight: lighter;
+  letter-spacing: 0.57px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.contenttwo .cntr-rect .rght-cnt a.explre-imapct-btn:hover {
+  background-color: #E35205;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.contentThee {
+  background-color: #000000;
+  padding: 17px 0 50px;
+}
+.contentThee .cntr-rect {
+  background-color: rgba(0, 0, 0, 0.8509803922);
+  border: 1px solid #FFFFFF;
+  max-width: 865px;
+  margin: 15px auto;
+  padding: 40px;
+}
+.contentThee .cntr-rect .lft-cnt h3 {
+  color: #FFFFFF;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+  font-size: 28px;
+  text-align: left;
+  line-height: 36px;
+}
+.contentThee .cntr-rect .lft-cnt h3 sup {
+  font-size: 12px;
+  top: -0.9em;
+}
+.contentThee .cntr-rect .lft-cnt p {
+  font-size: 18px;
+  color: #FFFFFF;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: left;
+  line-height: 24px;
+}
+.contentThee .cntr-rect .lft-cnt a.rethink-Btn {
+  border: 4px solid #E35205;
+  padding: 3px 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 19px;
+  font-weight: lighter;
+  letter-spacing: 0.57px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.contentThee .cntr-rect .lft-cnt a.rethink-Btn:hover {
+  background-color: #E35205;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.contentThee .cntr-rect .rght-cnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.contentThee .cntr-rect .rght-cnt img.without-addressing-evap {
+  width: 100%;
+  height: 150px;
 }
 
 footer {
